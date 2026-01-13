@@ -205,12 +205,12 @@ app.post("/contact", async (req, res) => {
 
 		// Optional auto-reply
 		await transporter.sendMail({
-			from: `"Leondon Resources" <leondonresources1@gmail.com>`,
+			from: `"Finance Company" <@gmail.com>`,
 			to: email,
 			subject: "We received your message",
 			html: `
                 <p>Hello ${name},</p>
-                <p>Thank you for reaching out to Leondon Resources.</p>
+                <p>Thank you for reaching out to Finance Company.</p>
                 <p>We will respond shortly.</p>
             `,
 		});
