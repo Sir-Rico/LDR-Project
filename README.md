@@ -1,2 +1,1 @@
-# LDR-Project
-Finance Website
+# Finance Website
